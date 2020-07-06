@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+html {
+    font-family: 'Roboto', sans-serif;
+}
+body {
+    background-color: #E5E5E5;
+}
+.container {
+    display: flex;
+    justify-content: center;
+}
+@media ( max-width: 700px) {
+    .container {
+        flex-direction: column;
+    }
+}
+.primary-section {
+    background: white;
+    width: 500px;
+}
+@media ( max-width: 700px) {
+    .primary-section {
+        width: 100%;
+    }
+}
+.secundary-section {
+    background: #19304F;
+    width: 250px;
+}
+@media (max-width: 700px) {
+    .secundary-section {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+    }
+}
+.profile {
+    display: flex;
+}
+@media (max-width: 380px) {
+    .profile {
+        flex-direction: column;
+    }
+}
+.circle {
+    margin: 11px 30px 0 20px;
+}
+@media (max-width: 380px) {
+    .circle {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+.name {
+    color: #19304F;
+    margin-top: 20px 0 0 11px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+@media (max-width: 380px) {
+    .name {
+      margin-top: 20px;
+    }
+}
+.img-profile {
+    width: 120px;
+    border-radius: 50%;
+}
+.name-perfil {
+    font-size: 18px;
+    margin-bottom: 0;
+}
+.front-developer {
+    margin-top: 4px;
+    font-size: 15px;
+    font-weight: normal;
+}
+.description {
+    margin: 20px 20px 0 20px;
+}
+@media (max-width: 700px) {
+    .description {
+            padding-bottom: 20px;
+    }
+}
+.description h3 {
+    color: #19304F;
+    font-size: 18px;
+    margin-top: 30px;
+}
+.description p {
+    line-height: 25px;
+    margin-top: 20px;
+}
+.description ul {
+    padding-left: 11px;
+}
+.description li {
+    line-height: 25px;
+    margin-top: 20px;
+    list-style: disc;
+    margin-bottom: 5px;
+}
+.contacts {
+    padding-top: 120px;
+    padding-left: 20px;
+}
+@media (max-width: 700px) {
+    .contacts {
+            padding-top: 0;
+            margin-bottom: 10px;
+    }
+}
+.contacts ul {
+    margin-top: 10px;
+}
+.contacts h3 {
+    color: white;
+}
+.contacts li {
+    color: white;
+    line-height: 25px;
+}
+.title-2 {
+    margin-top: 30px;
+}
+@media (max-width: 700px) {
+    .icons {
+            display: flex;
+        
+    }
+}
+.icons ul {
+    margin-top: 20px;
+    margin-left: 20px;   
+}
+
+@media (max-width: 700px) {
+    .icons ul {
+            margin-top: 0;
+            margin-bottom: 10px;
+    }
+}
+.icons li {
+    display: inline-block;
+    margin-right: 10px;
+}
+.icons-img {
+    width: 25px;
+}
