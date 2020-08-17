@@ -7,7 +7,7 @@ Front-end start latam course project to create a curriculum. ❤️
   - HTML
   - CSS
   
-### Developer by:
+### Develop by:
    > Ana Beatriz 
  - Linkedin: (https://www.linkedin.com/in/ana-beatriz-4b8604179/) 😄
  - Link to the project: (https://anabeatriiz.github.io/curriculo/) ✔️
